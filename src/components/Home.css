@@ -1,0 +1,38 @@
+.home-content{
+    max-width: 750px;
+    padding-left: 50px;
+    padding-top: 300px;
+    box-sizing: border-box;
+}
+
+.home-content > h1{
+    margin: 0px;
+    font-size: 30px;
+}
+
+
+
+
+/* for tablets */
+@media only screen and (max-width: 768px) {
+    .home-content{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+} 
+
+
+
+/* for mobile */
+@media only screen and (max-width: 568px) {
+    .home-content{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .home-content > h1{
+        font-size: 25px;
+    }
+    
+}
